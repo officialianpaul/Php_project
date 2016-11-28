@@ -1,6 +1,9 @@
 <body background="wallpaper.jpg">
 <center><h1>  Notice  </h1></center>
 <font color="red">
+  
+<FORM><INPUT Type="button" VALUE="Back to Homepage" onClick="history.go(-1);return true;"></FORM>
+  
 <?php
 $link=mysql_connect("localhost","root","");
 mysql_select_db("soumya");
